@@ -10,6 +10,7 @@
             font-family: 'Sanskrit', serif;
             text-align: center;
             padding: 20px;
+            user-select: none; /* Prevent text selection */
         }
         h1 {
             font-size: 48px;
@@ -20,6 +21,9 @@
             line-height: 1.6;
         }
     </style>
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault()); /* Disable right-click */
+    </script>
 </head>
 <body>
     <h1>लिङ्गाष्टकम्</h1>
