@@ -1,0 +1,17 @@
+body {
+    background-color: #f8eac3;
+    font-family: 'Sanskrit', serif;
+    text-align: center;
+    padding: 20px;
+    user-select: none; /* Prevent text selection */
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 25px;
+    line-height: 1.6;
+}
